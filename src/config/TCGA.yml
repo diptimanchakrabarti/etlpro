@@ -1,0 +1,41 @@
+Querytemplate:
+  filename: TestCasestemplate.xlsx
+  filepath: /config/
+audit:
+  classify: ProcessCategory
+  orchestrator: Process Category
+  validation: Validation Status
+destination:
+  destinationFile: TestScript
+  destinationPath: /output/
+  destinationType: file
+error:
+  AttributeError: Error - Trying to access Invalid attribute
+  Generic_Error: Application Exception
+  IOError: Error in Input/Output File processing
+  IndexError: Error - Trying to access Invalid index
+  Mapping_Doc_Error: Please check mapping sheet- Some Error in Mapping sheet
+  OSError: Error - System Exception Found
+  Tab_Not_Found: Please check mapping sheet- Required Tab in mapping sheet Not found
+  TypeError: Error - Invalid type
+  ValueError: Passing Invalid Value
+  ZeroDivisionError: Error - Divide by Zero Error
+load:
+  loadType: incremental
+log:
+  filemask: TCGT
+  filepath: /logs/
+  loglevel: INFO
+parseFile:
+  neworexisting: existing
+source:
+  fileName: PVIDXXXXXXX_FEP_EDWard_mapping - Standard_Updated.xlsx
+  path: /input/
+sourceSystem:
+  sourceSystemName: SqlServer
+  sourceSystemType: db
+targetSystem:
+  targetSystemName: Hive
+  targetsystemType: db
+  targetsystemZone: raw
+user: Anthem

@@ -1,0 +1,8 @@
+pandas>=0.21.1
+xlrd>=1.1.0
+openpyxl>=2.4.9
+numpy>=1.13.3
+flask>=0.12.2
+pyyaml>=3.12
+logging>=0.5.1.2
+xlsxwriter>=1.0.2

@@ -1,0 +1,58 @@
+<html>
+	<body>
+		{% with messages = get_flashed_messages() %}
+			{% if messages %}
+				<ul>
+					{% for message in messages %}
+					<li<{{ message }}</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+		{% endwith %}
+		<form method = "POST" enctype="multipart/form-data">
+		<table align="center">
+			<tr>
+				<td>
+					<img src="/templates/TCATLogo.png" width="100" height="100" alt=""></img>
+				</td>
+			</tr>
+			<th>
+				<tr>
+					<td style="color:black;font-size:80%;font-family:verdana;align=center">Select Source System Type</td>
+					<td>
+						<select name="source_select">
+							<option value="None"></option>
+							<option value="SqlServer">SqlServer</option>
+							<option value="Oracle">Oracle</option>
+							<option value="Teradata">Teradata</option>
+							<option value="Hive">Hive</option>
+							<option value="MySql">MySql</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td style="color:black;font-size:80%;font-family:verdana;align=center">Select Target System Type</td>
+					<td>
+						<select name="target_select">
+							<option value="None"></option>
+							<option value="Teradata">Teradata</option>
+							<option value="Hive">Hive</option>
+						</select> 
+					</td>
+				</tr>				
+				<tr>		
+					<td>
+						<h1 style="color:blue;font-size:100%;font-family:verdana;align=center">Browse and Upload Mapping Sheet...</h1>
+						<input type = "file" name = "file"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "submit" value ="Upload"/>
+					</td>
+				</tr>
+			</th>
+		</table>
+		</form>
+	</body>	
+</html>
