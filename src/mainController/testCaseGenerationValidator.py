@@ -38,12 +38,14 @@ class testCaseGenerationValidator():
                 valid=0
             else:
                 valid=1
-        if valid==0 and len(pd.read_excel(wbname, sheet_name='Attribute Mapping')) > 1:
-#             print "Success"
-            return True
-        else:
-            #print "Fail"
-            return False
+        for wrksht in sheetnames:
+            if str(wrksht).strip().upper() == 'ATTRIBUTE MAPPING':
+                if valid==0 and len(pd.read_excel(wbname, sheetnames.index(wrksht))) > 1:
+#                     print "Success"
+                    return True
+                else:
+#                     print "Fail"
+                    return False
 
     def validate_case_step(self,valdf):
         #Check for CASE WHEN...THEN...ELSE...END

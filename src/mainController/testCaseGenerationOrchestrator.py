@@ -45,8 +45,13 @@ class testCaseGenerationOrchestartor(object):
         if readXlsValidator.validate_workbook(fname):
             try:
                 self.log.info('*****END=Mapping file validation.')
-                df = pd.read_excel(fname, sheet_name='Attribute Mapping', skiprows=1,na_filter = False)
-                dfjoin = pd.read_excel(fname, sheet_name='Joining condition',na_filter = False)
+                sheet_list=pd.ExcelFile(fname).sheet_names
+                for sheetname in sheet_list:
+                    if sheetname.strip().upper()=='ATTRIBUTE MAPPING':
+                        df = pd.read_excel(fname, sheet_list.index(sheetname), skiprows=1,na_filter = False)
+                    if sheetname.strip().upper()=='JOINING CONDITION':
+                        dfjoin = pd.read_excel(fname, sheet_list.index(sheetname),na_filter = False)
+                
                 dfjoin.columns = dfjoin.columns.str.strip().str.upper() 
                 df.columns = df.columns.str.strip().str.upper()
 #                 print df.columns
@@ -111,9 +116,10 @@ class testCaseGenerationOrchestartor(object):
         else:
             #print 'ok'
             exceptionmsg=self.errhandler.check_Business_Exception("Tab_Not_Found")
-            print exceptionmsg  
+            print exceptionmsg
             self.log.error(exceptionmsg)    
-            exit()
+#             exit()
+            raise Exception("Tab_Not_Found") 
 
 # try:  
 # #     #df1 = pd.read_excel('EDWard_MBR_SIMPLY_PBM_Mapping_Standard_V0.1(1).xlsx', sheet_name='Attribute Mapping',na_filter = False)

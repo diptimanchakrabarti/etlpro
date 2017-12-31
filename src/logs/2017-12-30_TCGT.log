@@ -1,0 +1,264 @@
+2017-12-30-17-27-17 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-17-27-17 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-17-27-18 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-17-27-19 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-17-27-19 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-17-27-19 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-17-27-19 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-17-27-19 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-17-27-19 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-17-27-19 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-17-27-20 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-17-27-20 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-17-27-20 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-17-27-20 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-17-27-20 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-17-27-20 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........
+2017-12-30-18-11-58 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-18-11-58 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-18-11-58 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-18-11-59 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-18-11-59 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-18-11-59 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-18-11-59 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-18-12-00 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-18-12-00 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-18-12-00 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-18-12-00 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-18-12-00 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-18-12-00 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........
+2017-12-30-18-15-08 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-18-15-08 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-18-15-09 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-18-15-10 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-18-15-10 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-18-15-10 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-18-15-10 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-18-15-11 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-18-15-11 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-18-15-11 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-18-15-11 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-18-15-11 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-18-15-11 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-18-15-11 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........
+2017-12-30-18-20-04 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-18-20-04 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-18-20-05 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-18-20-06 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-18-20-06 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-18-20-06 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-18-20-06 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-18-20-06 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-18-20-07 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-18-20-07 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-18-20-07 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-18-20-07 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-18-20-07 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-18-20-07 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-18-20-07 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........
+2017-12-30-18-22-29 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-18-22-29 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-18-22-30 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-18-22-31 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-18-22-31 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-18-22-31 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-18-22-32 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-18-22-32 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-18-22-32 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-18-22-32 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-18-22-32 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-18-22-32 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-18-22-32 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........
+2017-12-30-18-31-55 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Initializing..........
+2017-12-30-18-31-55 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****START=Mapping File Validation...
+2017-12-30-18-31-56 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****END=Mapping file validation.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****START=Mapping file field level validation.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_status- Status Validation complete
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_special_char- Source File format Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_target_blank- Target table/column not null Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_process_category- Process category Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_case_step- Transform rule format validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_not_null_default- Not Null default Validation validation.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_source_dtls- Source table/column not null Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_duplicate- Duplicate mapping Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_column_format- column name format Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_offset- Offset Validation complete.
+2017-12-30-18-31-57 - INFO - testCaseGenerationValidator - validate_workbook_dtls- *****END=Mapping file field level validation.
+2017-12-30-18-31-57 - INFO - testCaseGenerationAuditor - log_audit- validation - **AUDIT INFO** - 2 Records processed for VALIDATION STATUS "Y"
+2017-12-30-18-31-57 - INFO - testCaseGenerationBaseParser - parse_data- *****START=Parsing text
+2017-12-30-18-31-57 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****START=Parse text for rdmjoinType
+2017-12-30-18-31-57 - INFO - testCaseGenerationBaseParser - baseparser_for_rdmjoinType- *****END=Parse text for rdmjoinType
+2017-12-30-18-31-57 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****START=Generating Queries for rdmjoinType
+2017-12-30-18-31-57 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_rdmjoinType- *****END=Completed generating Queries for rdmjoinType
+2017-12-30-18-31-57 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****START=Parse text for Default Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_defaultType- *****END=Parse text for Default Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****START=Generating Queries for Default Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforDefaultType- *****END=Completed generating Queries for Default Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****START=Parse text for Straight Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_straightType- *****END=Parse text for Straight Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****START=Generating Queries for Straight Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - SQLGeneratorforStraightType- *****END=Completed generating Queries for Straight Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****START=Parse text for Generic
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_generic- *****END=Parse text for Generic
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****START=Generating Queries for generic Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_genericType- *****END=Completed generating Queries for generic Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****START=Parse text for Transform Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - baseparser_for_TransformType- *****END=Parse text for Transform Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****START=Generating Queries for Transform Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestSQLGenerator - sqlgenerator_for_TransformType- *****END=Completed generating Queries for Transform Type
+2017-12-30-18-31-58 - INFO - testCaseGenerationBaseParser - parse_data- *****END=Parsing text
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****START=Classify generated test cases.
+2017-12-30-18-31-58 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 1 Records processed for PROCESSCATEGORY "GENERIC"
+2017-12-30-18-31-58 - INFO - testCaseGenerationAuditor - log_audit- classify - **AUDIT INFO** - 2 Records processed for PROCESSCATEGORY "STRAIGHT"
+2017-12-30-18-31-58 - INFO - testCaseGenerationTestCaseClassifier - classify_testCases- *****END=Classify generated test cases.
+2017-12-30-18-31-58 - INFO - testCaseGenerationXLSWriter - write_xls_classification- Testcase classification generated.
+2017-12-30-18-31-58 - INFO - testCaseGenerationOrchestartor - reader_orchestrator- *****Processing Complete..........

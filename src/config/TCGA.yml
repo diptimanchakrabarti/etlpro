@@ -7,7 +7,7 @@ audit:
   validation: Validation Status
 destination:
   destinationFile: TestScript
-  destinationPath: /output/
+  destinationPath: /output
   destinationType: file
 error:
   AttributeError: Error - Trying to access Invalid attribute
@@ -30,7 +30,7 @@ parseFile:
   neworexisting: existing
 source:
   fileName: PVIDXXXXXXX_FEP_EDWard_mapping - Standard_Updated.xlsx
-  path: /input/
+  path: /input
 sourceSystem:
   sourceSystemName: SqlServer
   sourceSystemType: db

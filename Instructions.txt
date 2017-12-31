@@ -1,0 +1,16 @@
+#Instructions to Use the tool for testing:
+
+Step 1: Create a folder into your machine some where with name "testCaseGeneratorUtilProject"
+Step 2: copy following cloned items into the folder: src, Dockerfile, requirements.txt
+Step 3: Go to command prompt and change directory to "testCaseGeneratorUtilProject"
+Step 4: Execute command: sudo docker build -t my-doc-app .
+Step 5: Execute command: sudo docker run -it -p 5000:5000 my-doc-app
+Step 6: Go to Web Browser
+Step 7: type 127.0.0.1:5000/uploaded
+Step 8: For the time beling select Source as SqlServer from dropdown
+Step 9: Select "Hive" as destination from Drop down.
+Step 10:Select the file available intthe repository to upload. It is in proper format to get processed. 
+Step 11: Click upload button.
+Step 12: Another page will open with Download button.
+Step 13: Click download button
+Step 14: Save the file.
