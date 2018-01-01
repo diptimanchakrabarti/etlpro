@@ -14,3 +14,5 @@ Step 11: Click upload button.
 Step 12: Another page will open with Download button.
 Step 13: Click download button
 Step 14: Save the file.
+Step 15: to access log files. use 127.0.0.1:5000/download_logs
+Step 16: Select a log file using radio button and click on download page. Download the log file. 

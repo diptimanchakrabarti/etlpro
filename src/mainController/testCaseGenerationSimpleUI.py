@@ -6,6 +6,7 @@ Created on Nov 17, 2017
 from flask import Flask, flash, render_template,request,send_file,redirect,url_for
 import os
 import yaml
+from os import walk
 from mainController import testCaseGenerationConfig
 # import mainController
 from mainController import testCaseGenerationOrchestrator as tcgto
@@ -85,5 +86,40 @@ def return_files():
         return send_file(os.path.abspath(filePathName),as_attachment=True)
 #     #return send_file(os.path.join(app.config['DOWNLOAD_FOLDER'], 'TestScript_Final.xlsx'),attachment_filename='TestScript_Final.xlsx')
 
+def sortdict(d):
+    for key in sorted(d,reverse=True)[:10]: yield d[key]
+
+def pick_log_file_names():
+    mypath=testCaseGenerationConfig.log_file_path
+    f = []
+    filelist = []
+    for (dirpath, dirnames, filenames) in walk(mypath):
+        f.extend(filenames)
+        break
+    dicts = {}
+    for i in f:
+    #print (i[0:10])
+        dicts[i[0:10]] = i    
+    for value in sortdict(dicts):
+        filelist.append(value)
+    return filelist   
+
+
+@app.route('/download_logs',methods = ['GET','POST'])
+def download_logs():
+    if request.method == 'POST':
+#         log_filename=str(request.form.get('download')).split(' ')[-1]
+#         print request.form.get('download')
+#         return send_file(os.path.join('C:\\Users\\IBM_ADMIN\\workspacepython\\testCaseGeneratorUtilProject\\src\\logs',log_filename),attachment_filename=log_filename,as_attachment=True)
+        if request.form.get('download') == 'Download Log':
+            log_filepath=testCaseGenerationConfig.log_file_path
+            log_filename=request.form["option"]
+            return send_file(os.path.abspath(os.path.join(log_filepath,log_filename)),attachment_filename=log_filename,as_attachment=True)
+              
+    newfilelist = pick_log_file_names()
+    return render_template('log_download.html', log_list=newfilelist)
+
+
+
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')

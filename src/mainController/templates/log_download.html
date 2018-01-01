@@ -1,0 +1,39 @@
+<html>
+	<body>
+		<form action = "http://localhost:5000/download_logs" method = "POST" enctype="multipart/form-data">
+		<table align="center">
+			<tr>
+				<td>
+					<img src="/templates/TCATLogo.png" width="100" height="100" alt=""></img>
+				</td>
+			</tr>
+			<th>
+				<tr>		
+					<td>
+						<h1 style="color:blue;font-size:100%;font-family:verdana;align=center">Choose and download logs...</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						{% for log_list_element in log_list %}
+							<!--p>{{ log_list_element }} </p-->
+							<input type="radio" name="option" value={{ log_list_element }}> {{ log_list_element }} <br>
+							<!--input id={{log_list_element}} type = "submit" value ="Download {{log_list_element}}" name="download" /-->
+						{% endfor %}
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "submit" value ="Download Log" name="download"/>
+					</td>
+				</tr>
+			</th>
+		</table>
+		</form>
+	</body>
+	<!--script type="text/javascript">
+		function get_log(input_id){
+			alert(input_id)
+			}
+	</script>
+</html>
